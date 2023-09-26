@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    padding: 0;
 }
 
 body {
@@ -7,19 +8,33 @@ body {
 }
 
 h1 {
+    padding-left: 20px;
     color: rgb(0, 38, 255);
     font-size: 45px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: white;
+    text-shadow: 0 3px 3px rgb(190, 190, 190);
 }
 
+img {
+    margin-left: 20px;
+}
+
+h1:hover, h2:hover {
+    text-decoration: underline;
+}
+
+
 h2 {
+    padding-left: 20px;
     color: blueviolet;
     font-size: 35px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: white;
+    text-shadow: 0 3px 3px rgb(190, 190, 190);
 }
 
 p {
+    margin-left: 20px;
     font-weight: bold;
 }
